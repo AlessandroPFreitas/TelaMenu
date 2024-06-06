@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function openDrawer() {
     console.log("clicou no hamburguer");
 
@@ -19,7 +19,7 @@ function closeDrawer() {
     drawer.style.display = 'none';
 }
 
-=======
+
 function openDrawer() {
     console.log("clicou no hamburguer");
 
@@ -39,5 +39,3 @@ function closeDrawer() {
 
     drawer.style.display = 'none';
 }
-
->>>>>>> c974509b0bfe48e51fa7d2bea511ad3632803fd8
