@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function openDrawer() {
     console.log("clicou no hamburguer");
 
@@ -18,3 +19,25 @@ function closeDrawer() {
     drawer.style.display = 'none';
 }
 
+=======
+function openDrawer() {
+    console.log("clicou no hamburguer");
+
+    let drawer = document.getElementById("nav_drawer");
+
+    console.log("variavel drawer tem o valor de: " + drawer);
+
+    drawer.style.display = 'block';
+}
+
+function closeDrawer() {
+    console.log("clicou no X");
+
+    let drawer = document.getElementById("nav_drawer");
+
+    console.log("variavel drawer tem o valor de: " + drawer);
+
+    drawer.style.display = 'none';
+}
+
+>>>>>>> c974509b0bfe48e51fa7d2bea511ad3632803fd8
